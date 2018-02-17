@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Quizzer</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="action_register">Register</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string-array name="acctype">
+        <item>ADMIN</item>
+        <item>STUDENT</item>
+    </string-array>
+    <string name="title_activity_create_quiz">CreateQuiz</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">something will come here</string>
+    <string name="title_activity_adminscr">Adminscr</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="12dp"
+        android:id="@+id/dept"
+        android:hint="Department"
+        android:layout_below="@+id/Institution"
+        android:layout_alignLeft="@+id/Institution"
+        android:layout_alignStart="@+id/Institution" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="14dp"
+        android:id="@+id/username"
+        android:hint="Username"
+        android:layout_below="@+id/dept"
+        android:layout_alignLeft="@+id/dept"
+        android:layout_alignStart="@+id/dept" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/Institution"
+        android:hint="Institution"
+        android:layout_below="@+id/fullname"
+        android:layout_alignLeft="@+id/fullname"
+        android:layout_alignStart="@+id/fullname"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:text="REGISTER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginBottom="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/pass"
+        android:layout_alignStart="@+id/pass"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/fullname"
+        android:hint="Full Name"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/typex"
+        android:layout_alignStart="@+id/typex"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/pass"
+        android:hint="Password"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/cpass"
+        android:hint="Confirm Password"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@+id/pass"
+        android:layout_alignRight="@+id/pass"
+        android:layout_alignEnd="@+id/pass"
+        android:layout_marginTop="12dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/typex"
+        android:entries="@array/acctype"
+        android:layout_alignBaseline="@+id/rno"
+        android:layout_alignBottom="@+id/rno"
+        android:layout_toLeftOf="@+id/rno"
+        android:layout_toStartOf="@+id/rno" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/rno"
+        android:hint="RollNo(if Student)"
+        android:layout_above="@+id/button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp" />
+
+</RelativeLayout>
